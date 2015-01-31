@@ -1,0 +1,268 @@
+
+/*here is the style for the body*/
+
+body{
+	text-align: center;
+	margin: auto;
+	font-size: 18px;
+	background-color: #E8E8E8; 
+	color: #4A4A4A;
+	font-family: arial;
+}
+
+
+
+ul{
+	list-style-type: none;
+}
+
+h1{
+	font-size: 60px;
+	font-weight: 700;
+}
+
+
+.top-nav{
+	background-color: #1C1C1C;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	float: left;
+}
+.top-nav a{
+	text-decoration: none;
+	color: #fff;
+}
+
+
+.top-nav a:hover{
+	text-decoration: none;
+	color: #d62d3d;
+	font-weight: 700;
+}
+
+.top-nav img{
+	height: 100px;
+	float: left;
+}
+
+
+.top-nav ul{
+	margin-top: 40px;
+
+}
+
+.top-nav ul li{
+	display: inline;
+	list-style-type: none;
+	background-color: #1C1C1C;
+	color: #d62d3d;
+	padding:5px 5px 5px 5px;
+}
+*/
+
+.content{
+	margin-top: 60px;
+}
+
+.img-holder{
+	width: 100%;
+	height: 500px;
+	background-image: url("http://meetthadealer.com/wp-content/uploads/2010/06/stompTheYard2.jpg");
+	background-color: rgba(255,0,0,.6);
+	background-size: cover;
+	color: #fff;
+	margin-right: 0px;
+}
+
+.img-holder_2{
+	width: 100%;
+	height: 500px;
+	background-image: url("http://images4.static-bluray.com/reviews/2621_1.jpg");
+	background-color: rgba(0,0,0,.4);
+	background-size: cover;
+	color: #fff;
+	margin-right: 0px;
+}
+
+.img-holder_3{
+	width: 100%;
+	height: 500px;
+	background-image: url("https://ionehellobeautiful.files.wordpress.com/2013/12/rick-owens-vicious-steppers1.jpg");
+	background-color: rgba(0,0,0,.4);
+	background-size: cover;
+	color: #fff;
+	margin-right: 0px;
+}
+
+.img-holder_4{
+	width: 100%;
+	height: 500px;
+	background-image: url("http://i.ytimg.com/vi/LAtLLkl_dgg/maxresdefault.jpg");
+	background-color: rgba(0,0,0,.4);
+	background-size: cover;
+	color: #fff;
+	margin-right: 0px;
+}
+
+.layer{
+	background-color:rgba(255,0,0,0.4); 
+    width:100%; 
+    height:100%;
+}
+.img-holder_3 h1{
+	padding-top: 100px;
+}
+
+
+.img-holder_4 h1{
+	padding-top: 100px;
+}
+	
+
+.img-holder h1{
+	font-size: 120px;
+	padding: 140px;
+}
+
+.img-holder_2 h1{
+	font-size: 120px;
+	padding: 100px;
+}
+
+
+.content_2{
+	padding: 100px;
+	list-style-type: none;
+	padding-left: 250px;
+	padding-right: 250px;
+
+}
+
+.content_2 a{
+	color: #4A4A4A;
+	text-decoration: none;
+}
+
+.content_2 a:hover{
+	color: #421C52;
+	font-weight: 700;
+}
+
+.content_vid{
+	padding:25px;
+	list-style-type: none;
+	width: 45%;
+	float: left;
+	display: inline;
+	margin-bottom: 150px;	
+}
+.title{
+	padding:25px;
+	font-size: 45px;
+	margin:10px;
+}
+.title h1{
+	padding:25px;
+	font-size: 65px;
+	margin:0px;
+}
+.content_2 a{
+	color: #4A4A4A;
+	text-decoration: none;
+}
+
+
+.footer {
+	color:#fff;
+	background-color: #1C1C1C;
+	width: 100%;
+	bottom: 0;
+	padding-top:2px;
+	padding-bottom: 2px;
+	text-align: left;
+	margin-bottom: 0px;
+	position: fixed
+	
+}
+
+.content_events{
+	padding-left: 150px;
+	padding-left: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	list-style-type: none;
+	margin-bottom: 150px;
+	text-align: left;
+	width: 75%;
+	overflow: hidden;
+}
+
+.content_event h1{
+	margin: 0;
+}
+.content_events a{
+	color: #4A4A4A;
+	text-decoration: none;
+}
+
+.content_events a:hover{
+	color: #d62d3d;
+	font-weight: 700;
+}
+
+.footer p{
+	padding-left: 10px;
+}
+
+.content_form{
+	padding-left: 150px;
+	padding-left: 150px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	list-style-type: none;
+	margin-bottom: 150px;
+	text-align: left;
+	width: 75%;
+	overflow: hidden;
+	width: 50%;
+}
+
+.content_form h1{
+	margin: 0;
+}
+.content_form a{
+	color: #4A4A4A;
+	text-decoration: none;
+}
+
+.content_form a:hover{
+	color: #d62d3d;
+	font-weight: 700;
+}
+.content_form input{
+	padding: 5px;
+}
+
+.content_form form{
+	padding: 25px;
+}
+.content_form input[type=submit]{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 25px;
+	padding-left: 25px;
+	color: #fff;
+	font-size: 24px;
+	background: #d62d3d;
+	margin: 10px;
+	border-radius: 5px;
+	border: 0px;
+}
+
+#fixed{
+	padding-bottom: 25px;
+}
+#bottom{
+	padding-top: 25px;
+}
